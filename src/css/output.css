@@ -505,6 +505,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1558,6 +1561,15 @@
   .text-\[\#167DFF\] {
     color: #167DFF;
   }
+  .text-\[\#F7DF1D\] {
+    color: #F7DF1D;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[\#https\:\/\/java-script-site-ruby\.vercel\.app\/\] {
+    color: #https://java-script-site-ruby.vercel.app/;
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -1812,6 +1824,11 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .transition-\[\.4\] {
+    transition-property: .4;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
   .transition-\[\.4s\] {
     transition-property: .4s;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -2049,6 +2066,62 @@
     &:hover {
       @media (hover: hover) {
         color: #0053CA;
+      }
+    }
+  }
+  .hover\:text-\[\#F7DF1D\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #F7DF1D;
+      }
+    }
+  }
+  .hover\:text-\[\#F7DF\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #F7DF;
+      }
+    }
+  }
+  .hover\:text-\[\#F7D\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #F7D;
+      }
+    }
+  }
+  .hover\:text-\[\#F\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #F;
+      }
+    }
+  }
+  .hover\:text-\[\#\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #;
+      }
+    }
+  }
+  .hover\:text-\[\#f7de1d8c\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #f7de1d8c;
+      }
+    }
+  }
+  .hover\:text-\[\#f7de1d\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #f7de1d;
+      }
+    }
+  }
+  .hover\:text-\[\#f7de1dc3\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #f7de1dc3;
       }
     }
   }
