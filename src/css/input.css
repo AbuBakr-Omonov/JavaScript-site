@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: "JB_r";
+    src: url(./assets/fonts/JetBrainsMono-Regular.ttf);
+}
+@font-face {
+    font-family: "JB_m";
+    src: url(./assets/fonts/JetBrainsMono-Medium.ttf);
+}
+@font-face {
+    font-family: "JB_b";
+    src: url(./assets/fonts/JetBrainsMono-Bold.ttf);
+}
+
+@import "tailwindcss";
+
+@theme {
+    --color-js: #07264D; 
+    --color-js_2: #19191C;
+    --font-JB_r: "JB_r", "sans-serif"; 
+    --font-JB_m: "JB_m", "sans-serif"; 
+    --font-JB_b: "JB_b", "sans-serif"; 
+  }
+
+.container{
+    max-width: 1276px;
+    padding: 0 16px;
+}
+*{
+    scroll-behavior: smooth;
+}
